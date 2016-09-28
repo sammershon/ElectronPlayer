@@ -1,4 +1,3 @@
-/* Box sizing resets*/
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -119,4 +118,8 @@ body{
   bottom: 0px;
   width: 100%;
   background: #524C4C;
+}
+
+.footer p{
+  text-align: center;
 }

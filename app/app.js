@@ -2,15 +2,14 @@
 // Import React and ReactDOM
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 // Import Components
-import Footer from './components/footer.component';
 import Search from './components/search.component';
 import Details from './components/details.component';
 import Player from './components/player.component';
 import Progress from './components/progress.component';
+import Footer from './components/footer.component';
 
-
-// Import Progress Component
 // Component Class
 class App extends React.Component {
 
@@ -22,6 +21,11 @@ class App extends React.Component {
             <Search />
             <Details title={'Track title'} />
             <Player  />
+            {/* Added Progress component*/}
+            <Progress
+              position={'0.3'}
+              elapsed={'00:00'}
+              total={'0:40'}/>
           </div>
         );
     }
