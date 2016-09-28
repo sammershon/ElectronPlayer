@@ -23,5 +23,4 @@ class Progress extends React.Component {
 
 }
 
-//Export Progress
 export default Progress

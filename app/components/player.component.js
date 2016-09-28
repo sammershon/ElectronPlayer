@@ -39,5 +39,4 @@ class Player extends React.Component {
 
 }
 
-// Export Player
 export default Player

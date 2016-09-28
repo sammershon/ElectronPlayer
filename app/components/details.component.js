@@ -2,7 +2,6 @@
 import React from 'react';
 
 class Details extends React.Component {
-  // Render
   render(){
     return(
       <div className="details">
@@ -12,5 +11,5 @@ class Details extends React.Component {
   }
 
 }
-// Export
+
 export default Details
