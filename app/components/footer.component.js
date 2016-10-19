@@ -4,7 +4,7 @@ class Footer extends React.Component {
   render(){
     return(
       <div className="footer">
-        <p>Footer content here</p>
+        <h2><i className="fa fa-hand-peace-o"></i> The Beat Machine <i className="fa fa-hand-peace-o"></i></h2>
       </div>
     )
   }
